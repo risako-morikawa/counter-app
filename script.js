@@ -8,3 +8,7 @@ button.addEventListener("click", () => {
   display.textContent = count;
 });
 
+document.getElementById("reset").onclick = () => {
+  count = 0;
+  display.textContent = count;
+};
